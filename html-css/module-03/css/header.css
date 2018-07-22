@@ -1,0 +1,36 @@
+.header {
+    text-align: center;
+    padding-top: 78px;
+    padding-bottom: 103px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.navigation {
+    padding-left: 80px;
+    padding-right: 80px;                   
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    color: #000000;
+    margin-right: 121px;
+    width: 105px;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: #1abc9c;
+}
+
+.nav-link:last-child {
+    margin-right: 0;  
+}
+
+.navigation {
+    margin-bottom: 80px;
+}
+
+
+
