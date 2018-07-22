@@ -1,0 +1,37 @@
+.container {
+    width: 1100px;
+    margin: auto;
+}
+
+.header {
+    padding-top: 43px;
+    padding-bottom: 108px;
+}
+
+.logo {
+    font-size: 29px;
+    float:left;
+    text-transform: uppercase;
+}
+
+.logo::first-letter{
+    color: #1abc9c;
+}
+
+.navigation {
+    font-size: 14px;
+    float:right;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    margin-right: 33px;
+}
+
+.nav-link:hover {
+    color: #1abc9c;
+}
+
+.nav-link:last-child {
+    margin-right: 0;
+}
