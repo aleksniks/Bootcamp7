@@ -1,0 +1,49 @@
+.header {
+  padding: 38px 0 32px;
+}
+
+.header_container {
+  width: 1110px;
+  margin: auto;   
+}
+
+.logo {
+  font-size: 21px;
+  text-transform: uppercase;
+}
+
+.header_logo {
+  float: left;
+}
+
+.logo::first-letter {
+  color: #0f9b7f;
+}
+
+.menu {
+  width: 462px;
+  font-size: 0;
+}
+
+.menu {
+  float: right;
+}
+
+.menu_item {
+  display: inline-block;
+  margin-right: 30px;
+  font-family: 'OpenSans-Bold', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 21px;
+  text-transform: uppercase;
+  line-height: 48px;
+}
+
+.menu_item:last-child {
+  margin-right: 0;
+}
+
+.menu_link:hover {
+  color: #1abc9c;
+}

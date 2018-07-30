@@ -1,0 +1,62 @@
+.wrapper_paris_tour {
+  background-image: url("../img/slide4.png");
+  background-repeat: no-repeat;
+  padding: 218px 0 268px;
+} 
+
+.section_paris_tour {
+  width: 1110px;
+  margin: auto;
+  text-align: center;
+}
+
+.title_affordable_tour {
+  margin-bottom: 30px;
+  font-family: 'AdobeInvisFont', sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.title_city_tours {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.titles_box {
+  position: relative;
+}
+
+.btn_left {
+  position: absolute;
+  top: 10px;
+  left: 83px;
+  padding: 36px 40px 35px 42px;
+  font-size: 37px;
+  color: #fff;
+  background-color: #1abc9c;
+  opacity: 0.8;
+  border: 0;  
+}
+
+.btn_left:hover {
+  opacity: 0.5;
+}
+
+.btn_right {
+  position: absolute;
+  top: 10px;
+  right: 83px;
+  padding: 36px 40px 35px 42px;
+  color: #fff;
+  font-size: 37px;
+  background-color: #1abc9c;
+  opacity: 0.8;
+  border: 0;
+}
+
+.btn_right:hover {
+  opacity: 0.5;
+}
