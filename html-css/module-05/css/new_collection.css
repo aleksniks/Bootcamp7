@@ -139,6 +139,9 @@
   display: none;
 }
 
+.box_name_price {
+  margin-top: 5px;
+}
 
 .link_btn {
   position: relative;
