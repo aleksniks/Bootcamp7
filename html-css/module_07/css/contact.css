@@ -1,0 +1,104 @@
+/* .wrap_contact {
+} */
+.section_contact {
+  /* padding: 228px 229px; */
+  background-color: #000;
+  background-image: url(../img/Map\ Image.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  padding: 109px 100px;
+}
+
+.container_contact {
+  width: 940px;
+  margin: auto;;
+}
+
+.title_contact {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 26px;
+}
+
+.subtitle_iaculis {
+  display: block;
+  font-size: 13px;
+  color: #808080;
+  text-align: center;
+  margin-bottom: 78px;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap_input_first_column {
+  display: flex;
+  flex-direction: column;
+  width: 458px;
+  height: 210px;
+}
+
+.wrap_input_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 210px;
+  margin-bottom: 26px;
+  /* width: 458px; */
+}
+
+.wrap_input_common {
+  display: flex;
+  flex-direction: column;
+}
+
+/* input[text="text"] {
+} */
+
+textarea[type="text"] {
+  width: 458px;
+  height: 205px;
+  margin-bottom: 30px;
+}
+
+.position_input {
+  height: 51px;
+  margin-bottom: 26px;
+  border-radius: 5px;
+}
+
+input:last-child {
+  margin-bottom: 0;
+}
+
+
+input[type="submit"] {
+  /* padding-top: 30px; */
+  /* width: 92px;
+  height: 48px; */
+  border-radius: 5px; 
+  margin: auto;
+  background-color: yellow;
+  padding: 25px 48px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  border: 0;
+  /* line-height: 64px; */
+}
+
+.input_field:valid {
+  outline: 1px solid #008000;
+}
+
+.input_field:invalid {
+  outline: 1px solid #FF0000;
+}
+
+
