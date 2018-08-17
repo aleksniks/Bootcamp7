@@ -1,0 +1,43 @@
+
+  $text-color-white: #fff;
+  $text-color-orange: #fce38a;
+  $title-welcome: rgb(255,255,255);
+  $social-btn: #fce38a;
+  $social-btn-hover: #95e1d3;
+
+  %Montserrat-Regular {
+    font-family: "Montserrat-Regular", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  %Kaushan-Script {
+    font-family: 'Kaushan Script';
+  }
+
+  @mixin flex($j-cont) {
+    justify-content: $j-cont;
+  }
+
+  %title-work-we {
+    text-align: center;
+    font-size: 24px;
+    @extend %Kaushan-Script;
+    font-weight: 100;
+    margin-bottom: 23px;
+  }
+
+  %title-amazing-meet {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    @extend %Montserrat-Regular;
+  }
+
+  @mixin font($color, $f-sz, $t-trans) {
+    color: $color;
+    font-size: $f-sz;
+    text-transform: $t-trans;
+  }
+
+

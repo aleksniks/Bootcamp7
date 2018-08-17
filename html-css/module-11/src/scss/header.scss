@@ -1,0 +1,65 @@
+.wrap-main {
+  width: 1920px;
+  background: url('../img/bg1X.png') no-repeat;
+  background-image: linear-gradient(to top, #efd58a, #f0bf7e, #eeaa77, #e89575, #df8176);
+  background-size: cover;
+  padding-bottom: 227px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .wrap_main {
+    background: url('../img/bg2X.png') no-repeat;
+  }
+}
+
+.header {
+  display: flex;
+  @include flex(space-between);
+  width: 1200px;
+  margin: auto;
+  margin-bottom: 175px;
+  padding-top: 32px;
+}
+
+.header__logo {
+  font-size: 30px;
+  @extend %Montserrat-Regular;
+  font-weight: bold;
+  color: $text-color-white;  
+  vertical-align: top; 
+}
+
+.sprite_style {
+  display: block;
+  padding-bottom: 5px;
+  width: 23px;
+  height: 23px;
+  fill: $text-color-white;
+}
+
+.header__list {
+  display: flex;
+  @include flex(space-between);
+  width: 621px;
+  height: 28px;
+}
+
+.list {
+  &__link {
+    padding-bottom: 12px;
+    font-size: 14px;
+    @extend %Montserrat-Regular;
+    text-transform: uppercase;
+    color: $text-color-white;
+     
+      &:hover {
+        color: $text-color-orange;
+        border-bottom: 3px solid $text-color-orange;
+      }
+   }
+  }
+
+.sprite_style:hover {
+  fill: $text-color-orange;
+  border-bottom: 3px solid $text-color-orange;
+}

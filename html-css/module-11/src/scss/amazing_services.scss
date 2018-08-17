@@ -1,0 +1,89 @@
+.amazing-services {
+  width: 1140px;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 90px;
+}
+
+.amazing-services__title-work {
+  @extend %title-work-we;
+}
+
+.amazing-services__title-services {
+  @extend %title-amazing-meet;
+}
+
+.amazing-services__title-services:after {
+  display: block;
+  margin: auto;
+  padding-top: 42px;
+  margin-bottom: 66px;
+  border-bottom: 3px solid red;
+  content: "";
+  width: 60px;
+}
+
+.amazing-services__list-services {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.list-services__item {
+  width: 328px;
+  margin-bottom: 102px;
+}
+
+.list-services__item:nth-child(n+3) {
+  margin-bottom: 0;
+}
+
+.item__title-kind-of-services {
+  position: relative;
+  @include font (rgba(51, 51, 51, 255), 14px, uppercase);
+  margin-bottom: 20px;
+  padding-left: 58px;
+  @extend %Montserrat-Regular;
+  font-weight: 100;
+}
+
+.item__title-kind-of-services:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  content: "";
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.kind_of_services--bg-alarm:before {
+  background: url('../img/alarm.png');
+}
+
+.kind_of_services--bg-line:before {
+  background: url('../img/line.png');
+}
+
+.kind_of_services--bg-computer:before {
+  background: url('../img/computer.png');
+}
+
+.kind_of_services--bg-book:before {
+  background: url('../img/book.png');
+}
+
+.kind_of_services--bg-home:before {
+  background: url('../img/home.png');
+}
+
+.kind_of_services--bg-digital:before {
+  background: url('../img/digital.png');
+}
+
+.item__service-description {
+  padding-left: 58px;
+  font-size: 15px;
+  color: rgba(153, 153, 153, 255);
+}
