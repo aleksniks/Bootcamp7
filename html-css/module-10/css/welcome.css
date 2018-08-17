@@ -1,0 +1,31 @@
+.welcome {
+  width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.welcome__title-template {
+  font-size: 74px;
+  color: rgb(255,255,255);
+  font-family: 'Kaushan Script';
+}
+
+.welcome__title-mogo {
+  margin-bottom: 127px;
+  font-size: 150px;
+  line-height: 140px;
+  color: rgb(255,255,255);
+  font-family: 'Montserrat-Regular', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.welcome__button {
+  padding: 11px 30px;
+  border: 3px solid #fff;
+  font-size: 14px;
+  color: rgb(255,255,255);
+  font-family: 'Montserrat-Regular', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}

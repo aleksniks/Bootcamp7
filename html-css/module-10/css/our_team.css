@@ -1,0 +1,128 @@
+.our-team {
+  width: 1196px;
+  margin: auto;
+}
+
+.our-team__title-who-we-are{
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 100;
+  margin-bottom: 23px;
+}
+
+.our-team__title-team {
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.our-team__title-team:after {
+  display: block;
+  margin: auto;
+  padding-top: 42px;
+  margin-bottom: 66px;
+  border-bottom: 3px solid red;
+  content: "";
+  width: 60px;
+}
+
+.our-team__team-description {
+  padding-bottom: 91px;
+  width: 950px;
+  margin: auto;
+  text-align: center;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: "Roboto";
+  color: rgba(153, 153, 153, 255);
+}
+
+.our-team__list-card {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: auto;
+}
+
+.list-card__item{
+  width: 380px;
+  height: 536px;
+}
+
+.card__image-holder {
+  position: relative;
+  width: 380px;
+  height: 467px;
+  overflow: hidden;
+}
+
+.card__image-holder:hover {
+  box-shadow: 10px 10px 0 0 #95e1d3;
+  transform: translate(-10px, -10px);
+  transition: 2s;
+  opacity: 1;
+}
+
+.image-holder__invizible-box {
+  position: absolute;
+  background-image: linear-gradient(rgba(248, 159, 137, 0.8), rgba(255, 247, 145, 0.8));
+  opacity: 0;
+  width: 380px;
+  height: 467px;
+  top: 0;
+  left: 0;
+  transition: 3ms;
+}
+
+.image-holder__invizible-box:hover {
+  opacity: 1;
+}
+
+.card__name-position {
+  display: flex;
+  flex-direction: column;
+  padding-top: 28px;
+  align-items: center;
+}
+
+.name-positon__man-name {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(51,51,51);  
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.name-positon__man-position {
+  font-size: 15px;
+  line-height: 24px;
+  font-family: 'Roboto', sans-serif; 
+  color: rgba(153, 153, 153, 255);
+  text-align: center;
+}
+
+.invizible-box__social-box {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 50%;
+  left: 50%;  
+  transform: translate(-50%, -50%); 
+  width: 225px;
+  height: 60px;
+}
+
+.social_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  background-color: #fce38a;
+}
+
+.social_btn:hover {
+  background-color: #95e1d3;
+}
